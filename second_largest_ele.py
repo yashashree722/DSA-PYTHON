@@ -18,3 +18,7 @@ def getSecondLargest(arr):
 if __name__ == "__main__":
     arr = [12, 350, 1, 10, 34, 100]
     print(getSecondLargest(arr))
+    
+    
+    
+    #  ,ckdjkkxcjkn  oehk
