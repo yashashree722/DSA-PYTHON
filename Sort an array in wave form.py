@@ -9,7 +9,7 @@ def Sort_an_array_in_wave_form(arr,n):
 def Sort_an_array_in_wave_form(arr,n):
     for i in range (0, n,2):
         if (i>0 and arr[i] < arr[i-1]):
-            arr[i] , arr[i+1] = arr[i+1] , arr[i]
+            arr[i] , arr[i-1] = arr[i-1] , arr[i]
         elif  (i<n-1 and arr[i] < arr[i+1]) :
              arr[i] , arr[i+1] = arr[i+1] , arr[i]
     
